@@ -17,3 +17,4 @@ Route::view('/', 'welcome');
 Route::view('light', 'views');
 Route::view('pricing', 'views');
 Route::view('sales-dashboard', 'views');
+Route::view('students', 'views');
