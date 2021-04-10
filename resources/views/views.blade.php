@@ -9,4 +9,8 @@
         @section('subtitle') Pricing @endsection
         @livewire('calculate-pricing')
     @endif
+    @if (Request::is('students'))
+        @section('subtitle') Students @endsection
+        @livewire('students')
+    @endif
 @endsection
