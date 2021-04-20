@@ -9,7 +9,7 @@
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
+    <script src="{{ asset('js/app.js') }}"></script>
     <style>
         body {
             font-family: 'Cascadia code', sans-serif;
@@ -18,6 +18,10 @@
     @livewireStyles
 </head>
 <body>
+    <nav class="navbar navbar-dark bg-primary">
+        <a class="navbar-brand" href="/">My Livewire Kits</a>
+    </nav>
+
     @yield('content')
 
     @livewireScripts

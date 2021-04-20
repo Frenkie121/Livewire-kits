@@ -20,7 +20,7 @@
 
     <div class="table-responsive col-md-10 mx-auto">
         <table class="table">
-            <thead class="thead-dark">
+            <thead class="bg-primary">
                 <th>#</th>
                 <th>Name</th>
                 <th>Email</th>
